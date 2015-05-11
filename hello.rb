@@ -1,10 +1,9 @@
 require 'sinatra'
 
-get '/' do
-  puts 'Hello World'
-end
+get "/" do
 
-get '/secret' do
-  'This is a secret page'
-  'I made changes to this page'
+"<Div>
+<img src='http://bit.ly/1eze8aE'>
+</Div>"
+
 end
