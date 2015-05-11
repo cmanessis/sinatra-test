@@ -1,9 +1,8 @@
 require 'sinatra'
 
-get "/" do
+get '/' do
 
-"<Div style = 'border: 5px dashed black'>
-<img src='http://bit.ly/1eze8aE'>
-</Div>"
+  @name = %w(Chris Daisy Geoff).sample
+  erb :index
 
 end
